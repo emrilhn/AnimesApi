@@ -1,0 +1,14 @@
+.card {
+  height: 600px; /* Kartın sabit yüksekliği */
+  /*overflow: ; /* İçerik taşarsa gizlenecek */
+}
+
+.card img {
+  height: 400px; /* Görselin sabit yüksekliği */
+  object-fit: cover; /* Görseli kırpmadan uygun şekilde sığdırır */
+}
+
+.card-body {
+  height: auto; /* Kartın metin kısmına sabit bir yükseklik */
+   
+}
